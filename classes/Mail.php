@@ -416,7 +416,7 @@ class MailCore extends ObjectModel
             $message
             ->setFrom($from)
             ->setTo($to)
-            >setSubject($subject)
+            ->setSubject($subject)
             ->setBody($content)
             ;
 
